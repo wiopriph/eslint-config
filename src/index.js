@@ -45,6 +45,7 @@ module.exports = {
       {blankLine: 'always', prev: ['block', 'multiline-block-like', 'for', 'if', 'multiline-expression'], next: '*'},
     ],
     'prefer-template': 'error',
+    'security/detect-object-injection': 'off',
     semi: ['error', 'always'],
     'space-before-function-paren': ['error', {
       anonymous: "never",
